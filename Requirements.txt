@@ -1,12 +1,11 @@
 scikit-learn
 pandas
 numpy
-imatplotlib.pyplot
 seaborn
 train_test_split
-GridSearchCV
 classification_report
-accuracy_score,precision_score
+accuracy_score
+precision_score
 recall_score
 f1_score 
 roc_auc_score, 
@@ -14,11 +13,6 @@ confusion_matrix
 ConfusionMatrixDisplay
 roc_curve 
 auc
-DecisionTreeClassifier
-StackingClassifier
-XGBClassifier
-RandomForestClassifier
-LogisticRegression
 StandardScaler
 tensorflow
 Sequential
