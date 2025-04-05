@@ -2,4 +2,11 @@ joblib
 streamlit
 scikit-learn
 pandas
-
+keras
+tensorflow
+Sequential
+LSTM
+Dense
+Dropout
+Adam
+StandardScaler
