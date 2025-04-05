@@ -1,3 +1,5 @@
+joblib
+streamlit
 scikit-learn
 pandas
 numpy
@@ -21,5 +23,4 @@ Dense
 Dropout
 Adam
 StandardScaler
-joblib
-streamlit
+
