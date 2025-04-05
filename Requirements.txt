@@ -2,25 +2,4 @@ joblib
 streamlit
 scikit-learn
 pandas
-numpy
-seaborn
-train_test_split
-classification_report
-accuracy_score
-precision_score
-recall_score
-f1_score 
-roc_auc_score, 
-confusion_matrix
-ConfusionMatrixDisplay
-roc_curve 
-auc
-StandardScaler
-tensorflow
-Sequential
-LSTM
-Dense
-Dropout
-Adam
-StandardScaler
 
