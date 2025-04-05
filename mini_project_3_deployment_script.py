@@ -19,7 +19,7 @@ Fuel_prc = st.number_input('Enter average Fuel Price')
 Unemployment_rate = st.number_input('Enter Unemployment Rate')
 
 if st.button('Predict Cancelation Rate'):
-  features = [[Days_til_booking, Month_of_arrival, GDP, Intrest_rate, Inflation_chg, Inflation, CPI_avg, CPI_hotels, Fuel_prc, Unemployment_rate]]
+  features = [Days_til_booking, Month_of_arrival, GDP, Intrest_rate, Inflation_chg, Inflation, CPI_avg, CPI_hotels, Fuel_prc, Unemployment_rate]
   
   
   prediction_LSTM = model.predict([features])[0]
