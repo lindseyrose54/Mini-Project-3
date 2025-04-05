@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load('/lstm_model.pkl')
+model = joblib.load('lstm_model.pkl')
 
 
 st.title('Hotel Cancelation rates based off economic triggers')
