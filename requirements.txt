@@ -4,7 +4,5 @@ scikit-learn
 pandas
 keras
 tensorflow
-Sequential
-Dropout
-Adam
-StandardScaler
+
+
