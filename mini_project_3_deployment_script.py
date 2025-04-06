@@ -9,7 +9,7 @@ st.write('Predictions utilizing stacking ensemble and LSTM')
 
 Days_til_booking = st.number_input('Enter number of days between booking and check out')
 Month_of_arrival = st.number_input('Enter the month of arrival (0-12)')
-G_D_P = st.number_input('Enter GDP')
+gross_domestic_product = st.number_input('Enter number')
 Intrest_rate = st.number_input('Enter Interest Rate')
 Inflation_chg = st.number_input('Enter Inflation Change')
 Inflation = st.number_input('Enter Inflation')
