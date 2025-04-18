@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the RF model
-model = load_model('lstm_model_most_updated.h5')  # Make sure the .h5 file is in the same directory
+model = load_model('lstm_model.keras')  # Make sure the .h5 file is in the same directory
 
 st.title('Hotel Cancelation Rates Based on Economic Triggers')
 st.write('Predictions utilizing stacking ensemble and LSTM')
