@@ -18,11 +18,13 @@ CPI_avg = st.number_input('Enter CPI Average')
 CPI_hotels = st.number_input('Enter CPI Hotels')
 Fuel_prc = st.number_input('Enter average Fuel Price')
 Unemployment_rate = st.number_input('Enter Unemployment Rate')
+Disposable_Income_per_Capita = st.number_input('Enter Disposable Income')
+Consumer_Sentiment_towards_Economy = st.number_input('Enter CSI')
 
 if st.button('Predict Cancelation Rate'):
     # Prepare features
     features = [Days_til_booking, Month_of_arrival, Gross_domestic_product, Interest_rate,
-                Inflation_chg, Inflation, CPI_avg, CPI_hotels, Fuel_prc, Unemployment_rate]
+                Inflation_chg, Inflation, CPI_avg, CPI_hotels, Fuel_prc, Unemployment_rate, Disposable_Income_per_Capita, Consumer_Sentiment_towards_Economy]
 
     # Convert to NumPy array and reshape for LSTM: (batch_size, time_steps, features)
     features = np.array(features).reshape(1, 1, -1)
