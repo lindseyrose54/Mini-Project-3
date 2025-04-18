@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import joblib
+from tensorflow.keras.models import load_model
 
 # Load the RF model
 model = load_model('lstm_model_most_updated.h5')  # Make sure the .h5 file is in the same directory
