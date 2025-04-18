@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 model = load_model('lstm_model.keras')  # Make sure the .h5 file is in the same directory
 
 st.title('Hotel Cancelation Rates Based on Economic Triggers')
-st.write('Predictions utilizing stacking ensemble and LSTM')
+st.write('Predicting whether a guest will cancel their reservation')
 
 Days_til_booking = st.number_input('Enter number of days between booking and check out')
 Month_of_arrival = st.number_input('Enter the month of arrival (0-12)')
