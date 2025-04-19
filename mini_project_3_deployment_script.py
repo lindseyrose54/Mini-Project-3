@@ -33,4 +33,4 @@ if st.button('Predict Cancelation Rate'):
     prediction_LSTM = model.predict(features)[0][0]
 
     # Display prediction
-st.write(f'Prediction score: {prediction_LSTM:.2f} — 0 means No Cancellation, 1 means Cancellation')
+    st.write(f'If 0 guest will NOT CANCEL: {prediction_LSTM:.2f}')
