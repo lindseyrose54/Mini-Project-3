@@ -33,7 +33,4 @@ if st.button('Predict Cancelation Rate'):
     prediction_LSTM = model.predict(features)[0][0]
 
     # Display prediction
-if prediction_LSTM > 0.5:
-    st.markdown(f"<span style='color:red'>Prediction: Guest will likely cancel (Score: {prediction_LSTM:.2f})</span>", unsafe_allow_html=True)
-else:
-    st.markdown(f"<span style='color:green'>Prediction: Guest will likely not cancel (Score: {prediction_LSTM:.2f})</span>", unsafe_allow_html=True)
+st.write(f'Prediction score: {prediction_LSTM:.2f} — 0 means No Cancellation, 1 means Cancellation')
