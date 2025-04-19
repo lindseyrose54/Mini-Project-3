@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 # Load the RF model
 model = load_model('lstm_model.keras')  # Make sure the .h5 file is in the same directory
 
-st.title('Hotel Cancelation Rates Based on Economic Triggers')
+st.title('Hotel Cancellation Rates Based on Economic Triggers')
 st.write('Predicting whether a guest will cancel their reservation')
 
 Days_til_booking = st.number_input('Enter number of days between booking and check out')
@@ -33,4 +33,4 @@ if st.button('Predict Cancelation Rate'):
     prediction_LSTM = model.predict(features)[0][0]
 
     # Display prediction
-    st.write(f'If 0 guest will NOT CANCEL: {prediction_LSTM:.2f}')
+    st.write(f'Predicton Score: {prediction_LSTM:.2f}— 0 means No Cancellation, 1 means Cancellation')
